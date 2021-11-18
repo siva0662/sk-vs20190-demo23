@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "newProfile1": {
+      "commandName": "Executable",
+      "executablePath": "D:\\practice\\c#\\csharp_sample2\\csharp_sample2\\bin\\Debug\\netcoreapp3.1\\csharp_sample2.exe"
+    }
+  }
+}

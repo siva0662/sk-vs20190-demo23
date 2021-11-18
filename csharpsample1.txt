@@ -1,0 +1,38 @@
+using System;
+
+namespace benefice
+{
+    class Employee
+    {
+        int _eno;
+        public int Eno
+        {
+            get { return _eno; }
+            set { _eno = value; }
+        }
+        string _ename;
+        public string ename
+        {
+            get { return _ename; }
+            set { _ename = value; }
+        }
+        double _esal;
+        public double Esal
+        {
+            get { return _esal; }
+            set { _esal = value; }
+        }
+    }
+    class program
+    {
+        static void Main()
+        {
+            Employee employee = new Emloyee();
+            employee.Eno = 1001;
+            employee.Ename = " Krishna";
+            employee.Esal = 1000;
+            Console.WriteLine($"Employee number:{employee.Eno}");
+
+        }
+    }
+}

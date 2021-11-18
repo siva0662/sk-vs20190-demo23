@@ -1,0 +1,14 @@
+c# Data types
+value types
+
+ built types
+enum types
+struct types
+nullable types
+
+ref types
+
+built in types
+class types
+interface types
+array types
