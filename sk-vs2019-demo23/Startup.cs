@@ -33,6 +33,7 @@ namespace sk_vs2019_demo23
                 endpoints.MapGet("/", async context =>
                 {
                     await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync(" of krishna!");
                 });
             });
         }
